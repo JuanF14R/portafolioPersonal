@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!-- Lenguaje del contenido en español para favorecer en motores de busqueda -->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos de Bootstrap para carrusel en sección de proyectos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Vinculo archivo CSS para los diseños de la pagina web -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <!-- Link de vinculación de imagen para logo de pestaña favicon -->
+    <link rel="shortcut icon" href="./assets/Foto de Perfil.jpg" type="image/x-icon">
+    <!-- Nombre para titulo de la pestaña -->
+    <title>Portafolio JuanF14</title>
+</head>
+
+<body>
+    <!-- Dentro del Header vamos a encontrar incluida barra de nevegación, nombre, foto y breve descripción personal (en vista 100vw y 100vh). Sección que busca llamar la atención inmediata para poder entrar en contacto con clientes -->
+    <header>
+        <!-- Barra de navegación para moverse en las 4 secciones de la pagina con mayor facilidad, se incluye nombre principal-->
+        <nav class="container-navBar">
+            <!-- Contenedor padre de barra de navegación -->
+            <article class="navBar-list">
+                <h2 ">Juan Felipe Rodriguez Pinzon</h2>
+                <ul class=" navBar-links">
+                    <!-- Movimiento dentro de la misma pagina web -->
+                    <li><a href="#Portada"> Sobre mi</a></li>
+                    <!-- Movimiento dentro de la misma pagina web -->
+                    <li> <a href="#tecnologias">Tecnologias</a></li>
+                    <!-- Movimiento dentro de la misma pagina web -->
+                    <li> <a href="#proyectos">Proyectos</a></li>
+                    <!-- Movimiento dentro de la misma pagina web -->
+                    <li><a href="#seccionContacto">Contacto</a></li>
+                    </ul>
+            </article>
+        </nav>
+        <!-- Inicio de sección de portada, donde se incluye titulo principal de Desarrollador Full Stack, parrafo de descripción personal, foto personal y boton de llamado a la acción. -->
+        <article class="Portada">
+            <!-- Se usa div para agrupar 3 de los elementos mencionados anteriormente: titulo principal de Desarrollador Full Stack, parrafo de descripción personal y boton de llamado a la acción. Se agrupan en div ya que no tienen del todo relación entre si y facilita para la organización de la sección -->
+            <div class="subPortada">
+                <!-- Mi H1 es mi habilidad tecnica entorno a lo que va a girar todo mi portafolio -->
+                <h1>Full Stack Web Developer</h1>
+                <!-- Breve descripción personal -->
+                <p>Ingeniero Industrial y desarrollador web Full - Stack en proceso de formación, emprendedor,
+                    apasionado
+                    por mi profesión, altamente comprometido, responsable, con ideas innovadoras; orientado al
+                    cumplimiento
+                    de metas, objetivos y gestión de recursos. Me gustan los desafíos, el desarrollo de proyectos, y la
+                    constante actualización. Cuento con habilidad para adaptarme a diferentes situaciones, soy eficiente
+                    y
+                    aprendo rápido; tengo facilidad para relacionarme con las personas; soy proactivo, con habilidades y
+                    gusto para liderar actividades de tipo académico y/o laboral. Tengo facilidad para trabajar en
+                    equipo y
+                    en circunstancias bajo presión; siempre dispuesto a aportar lo mejor de mí para hacer parte del
+                    desarrollo, el cumplimiento de las metas y los objetivos planteados.</p>
+
+                <a href="https://wa.me/573125020400?text= Hola, soy Juan Felipe Rodriguez" target="_blank"
+                    class="btn">Contactame</a>
+                <!-- Fin div subportada -->
+            </div>
+            <!-- Imagen de foto de perfil, para conectar no solo profesional sino personalmente con clientes o reclutadores -->
+            <img src="./assets/Foto de Perfil.jpg" alt="FotodeperfilJFR14">
+        </article>
+        <!-- Fin de portada - Fin de header -->
+    </header>
+    <main>
+        <!-- Inicio de sección 1 del main donde se agrupan: las tecnologias que manejo, con contenedores para impresión visual de relleno, se hace uso de sección ya que entre las imagenes, barras de relleno, deocoración y texto no existe una relacion directa -->
+        <section class="skills" id="tecnologias">
+            <!-- Inicio donde Se agrupa la sección 1.1 del main donde incluimos imagenes de decoración, imagen principal y un titulo -->
+            <article class="seccion1-1main">
+                <h3 class="subtitulos-main">Tecnologias</h3>
+                <img class="imagenIA" src="./assets/knowledgeSC2.png" alt="knowledgeSC2">
+                <!-- Se agrupa imagenes de decoración para facilitar su desplazamiento y organización -->
+                <div class="decoracionmain">
+                    <img class="decoracion-cuadricula" src="./assets/decoracion1.png" alt="decoracion1">
+                    <img class="decoracion-escalera" src="./assets/decoracion2.png" alt="decoracion2">
+                </div>
+                <!-- Fin de sección 1.1 del main -->
+            </article>
+            <!-- Inicio Se agrupa la sección 1.2 del main donde incluimos imagenes de decoración, texto de las tecnologias que manejo y contenedores usados para simular barras rellenas -->
+            <article class="seccion1-2main">
+                <!-- Se agrupa imagenes de decoración para facilitar su desplazamiento y organización -->
+                <div class="decoracionmain1">
+                    <img class="decoracion-cuadricula1" src="./assets/decoracion1.png" alt="decoracion1">
+                    <img class="decoracion-escalera2" src="./assets/decoracion2.png" alt="decoracion2">
+                </div>
+                <!-- Se agrupan textos de las tecnologias junto con sus barras de relleno haciendo uso en scc de backgroundcolor -->
+                <div class="barras">
+                    <div class="tecnologia">
+                        <h3>HTML</h3>
+                        <div class="barra">
+                            <div class="porcentajeH porcentaje">80%</div>
+                        </div>
+                    </div>
+                    <div class="tecnologia">
+                        <h3>CSS</h3>
+                        <div class="barra">
+                            <div class="porcentajeC porcentaje">50%</div>
+                        </div>
+                    </div>
+                    <div class="tecnologia">
+                        <h3>Js</h3>
+                        <div class="barra">
+                            <div class="porcentajeJ porcentaje">15%</div>
+                        </div>
+                    </div>
+                    <div class="tecnologia">
+                        <h3>Angular</h3>
+                        <div class="barra">
+                            <div class="porcentajeA porcentaje">10%</div>
+                        </div>
+                    </div>
+                    <!-- Fin de agrupación de las 4 tecnologias que manejo -->
+                </div>
+                <h3 class="subtitulos-main">Que manejo</h3>
+                <!-- Fin de la sección de tecnologias sección 1 de main -->
+            </article>
+        </section>
+        <!-- Inicio de la sección 2 del main. Carrusel de imagenes para enumerar los proyetos propios. Uso de Bootstrap -->
+        <article class="carrusel micarrusel" id="proyectos">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Slide1 -->
+                    <div class="carousel-item active">
+                        <a href="https://github.com/JuanF14R/tarjetadeInvitacion" target="_blank">
+                            <img src="./assets/publicidadTarjetadeGrado.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    <!-- Slide2 -->
+                    <div class="carousel-item">
+                        <a href="https://github.com/JuanF14R/landingPage" target="_blank">
+                            <img src="./assets/publicidadLandingPage.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    <!-- Slide3 -->
+                    <div class="carousel-item">
+                        <a href="#" target="_blank">
+                            <img src="./assets/publicidadPortafolioPersonal.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Fin de sección 2 de main, fin de carrusel de Bootstrap para sección de proyectos -->
+        </article>
+        <!-- Fin del main -->
+    </main>
+    <footer id="seccionContacto">
+        <!-- Inicio de footer, se dividen en 5 secciones para distribuir facilmente la información de contacto -->
+        <!-- Inicio de la sección 1 del footer donde se incluye un boton de llamado a la acción vinvulado al chat de whatsapp -->
+        <section class="seccionContacto1">
+            <h2>¡Envíame un mensaje!</h2>
+            <p>¿Tienes algúna pregunta o propuesta o simplemente quieres saludar?</p>
+            <a href="https://wa.me/573125020400?text= Hola, soy Juan Felipe Rodriguez" target="_blank"
+                class="btn">Contacto</a>
+            <!-- Fin de sección 1 del footer -->
+        </section>
+        <!-- Inicio de sección 2 del footer, datos personales para contacto haciendo uso de lista no ordenada -->
+        <section class="seccionContacto2">
+            <ul>
+                <li>juan.rodriguez9914@gmail.com</li>
+                <li>Linkeding</li>
+                <li>3125020400</li>
+            </ul>
+            <!-- Fin de sección 2 del footer -->
+        </section>
+        <section class="seccionContacto3">
+            <!-- Inicio de sección 3 del footer donde se encuentran los mismos enlaces de la barra de navegación para redireccionar al usuario dentro de la misma mas facilmente -->
+            <ul>
+                <li><a href="#Portada"> Sobre mi</a></li>
+                <li> <a href="#tecnologias">Tecnologias</a></li>
+                <li> <a href="#proyectos">Mis proyectos </a></li>
+            </ul>
+            <!-- Fin de sección 3 del footer -->
+        </section>
+        <section class="seccionContacto4">
+            <!-- Inicio de sección 4 del footer, donde mediante etiqueta iframe se vincula ubicación de google maps para facilitar información a usuario -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.51833008064!2d-74.27262101648081!3d4.648278403060431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1727800528781!5m2!1ses!2sco"
+                width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- Fin de sección 4 mapa de google maps -->
+        </section>
+        <div class="seccionContacto5">
+            <!-- inicio de sección 5 de footer, sección final de la pagina se relaciona autor y tematica -->
+            <p>Proyecto realizado por &copy; Juan Felipe Rodriguez Pinzon 2024</p>
+            <p> Bootcamp de desarrollo web | Fundamentos de programación</p>
+            <!-- Fin de sección 5 del footer -->
+        </div>
+    </footer>
+    <!-- Link de bootstrap usado para carruse de imagenes en sección de proyectos, sección 2 del main -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Fin del body -->
+</body>
+
+</html>
